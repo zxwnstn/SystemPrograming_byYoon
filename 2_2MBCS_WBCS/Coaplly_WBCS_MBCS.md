@@ -1,18 +1,18 @@
-## MBCS¿Í WBCS µ¿½ÃÁö¿ø
+## MBCSì™€ WBCS ë™ì‹œì§€ì›
 
 <br>
 
-### °³¿ä
-¾ÆÁ÷±îÁö ¸ðµç ½Ã½ºÅÛÀÌ À¯´ÏÄÚµå¸¦ Áö¿øÇÏÁö ¾Ê´Â´Ù. ¿Ö³ÄÇÏ¸é °³¹ß¹× ¼ÒÇÁÆ®¿þ¾î¸¦ µ¹¸®´Â È¯°æÀÌ ÅëÀÏ µÇÁö ¾Ê¾Ò±â ¶§¹®ÀÌ´Ù.
-¹®Á¦´Â ÀÌ·¯ÇÑ ¿¬À¯·Î ÇÏ³ªÀÇ ÇÁ·Î±×·¥ÀÎµ¥µµ ºÒ±¸ÇÏ°í MBCS±â¹Ý ÇÁ·Î±×·¥°ú WBCS ±â¹ÝÇÁ·Î±×·¥, 
-2°³ÀÇ ÇÁ·Î±×·¥À» µû·Î ¸¸µé¾î °ü¸®ÇØ¾ß ÇÏ´Â »óÈ²ÀÌ³ª, ¹èÆ÷»óÀÇ ¹®Á¦°¡ ¹ß»ýÇÒ ¼öµµ ÀÖ´Ù´Â Á¡ÀÌ´Ù.
-ÀÌ¿¡ µû¸£´Â ÇØ°áÃ¥À¸·Î µÎ°³ÀÇ ¹®ÀÚ¼ÂÀ» µ¿½Ã¿¡ Áö¿øÇÏ´Â ÇÁ·Î±×·¥À» ¸¸µé¸é µÈ´Ù´Â °ÍÀÌ ÀÖ´Ù.
-windows´Â ÀÌ¹Ì ÀÌ·¸°Ô »ç¿ëÇÒ¼ö ÀÖ´Â ¿©·¯ ¸ÞÅ©·Î¿Í ÅÛÇÃ¸´À» Áö¿øÇÏ¸ç,
-±Ã±ØÀûÀ¸·Î ´õ ÁÁÀº °³¹ßÀÚ°¡ µÇ±â À§ÇØ¼­ MBCS¿Í WBCS¸¦ µ¿½Ã¿¡ Áö¿øÇÏ´Â ÇÁ·Î±×·¡¹ÖÀ» ÇØ¾ßÇÑ´Ù.
+### ê°œìš”
+ì•„ì§ê¹Œì§€ ëª¨ë“  ì‹œìŠ¤í…œì´ ìœ ë‹ˆì½”ë“œë¥¼ ì§€ì›í•˜ì§€ ì•ŠëŠ”ë‹¤. ì™œëƒí•˜ë©´ ê°œë°œë° ì†Œí”„íŠ¸ì›¨ì–´ë¥¼ ëŒë¦¬ëŠ” í™˜ê²½ì´ í†µì¼ ë˜ì§€ ì•Šì•˜ê¸° ë•Œë¬¸ì´ë‹¤.
+ë¬¸ì œëŠ” ì´ëŸ¬í•œ ì—°ìœ ë¡œ í•˜ë‚˜ì˜ í”„ë¡œê·¸ëž¨ì¸ë°ë„ ë¶ˆêµ¬í•˜ê³  MBCSê¸°ë°˜ í”„ë¡œê·¸ëž¨ê³¼ WBCS ê¸°ë°˜í”„ë¡œê·¸ëž¨, 
+2ê°œì˜ í”„ë¡œê·¸ëž¨ì„ ë”°ë¡œ ë§Œë“¤ì–´ ê´€ë¦¬í•´ì•¼ í•˜ëŠ” ìƒí™©ì´ë‚˜, ë°°í¬ìƒì˜ ë¬¸ì œê°€ ë°œìƒí•  ìˆ˜ë„ ìžˆë‹¤ëŠ” ì ì´ë‹¤.<br>
+ì´ì— ë”°ë¥´ëŠ” í•´ê²°ì±…ìœ¼ë¡œ ë‘ê°œì˜ ë¬¸ìžì…‹ì„ ë™ì‹œì— ì§€ì›í•˜ëŠ” í”„ë¡œê·¸ëž¨ì„ ë§Œë“¤ë©´ ëœë‹¤ëŠ” ê²ƒì´ ìžˆë‹¤.
+windowsëŠ” ì´ë¯¸ ì´ë ‡ê²Œ ì‚¬ìš©í• ìˆ˜ ìžˆëŠ” ì—¬ëŸ¬ ë©”í¬ë¡œì™€ í…œí”Œë¦¿ì„ ì§€ì›í•˜ë©°,
+ê¶ê·¹ì ìœ¼ë¡œ ë” ì¢‹ì€ ê°œë°œìžê°€ ë˜ê¸° ìœ„í•´ì„œ MBCSì™€ WBCSë¥¼ ë™ì‹œì— ì§€ì›í•˜ëŠ” í”„ë¡œê·¸ëž˜ë°ì„ í•´ì•¼í•œë‹¤.
 
 <br>
 
-### windows Á¤ÀÇ ÀÚ·áÇü
+### windows ì •ì˜ ìžë£Œí˜•
 	#include<windows.h)
 
 	typedef	char			CHAR;
@@ -25,20 +25,20 @@ windows´Â ÀÌ¹Ì ÀÌ·¸°Ô »ç¿ëÇÒ¼ö ÀÖ´Â ¿©·¯ ¸ÞÅ©·Î¿Í ÅÛÇÃ¸´À» Áö¿øÇÏ¸ç,
 	
 	typedef	WCHAR *			LPWSTR;
 	typedef	CONST WCHAR *	LPCWSTR;
-È¸»ç, ÆÀº° ´õÀÛ°Ô´Â ÇÁ·ÎÁ§Æ®º°·Î ³×ÀÌ¹ÖÀ» ´Þ¸® ÇÏ´Â °æ¿ì°¡ ÀÖ±â ¶§¹®¿¡ ÀÌ°ÍÀÌ ÃÖ¼±ÀÌ¶ó ÇÒ ¼ö´Â ¾ø´Ù.
-³×ÀÌ¹ÖÀº ÇÁ·ÎÁ§Æ®ÀÇ ¼º°Ý°ú Å¸ÀÔ¿¡ µû¶ó ´Þ¶óÁú¼ö ÀÖ´Â ºÎºÐÀÌ±â ¶§¹®ÀÌ´Ù.
+íšŒì‚¬, íŒ€ë³„ ë”ìž‘ê²ŒëŠ” í”„ë¡œì íŠ¸ë³„ë¡œ ë„¤ì´ë°ì„ ë‹¬ë¦¬ í•˜ëŠ” ê²½ìš°ê°€ ìžˆê¸° ë•Œë¬¸ì— ì´ê²ƒì´ ìµœì„ ì´ë¼ í•  ìˆ˜ëŠ” ì—†ë‹¤.
+ë„¤ì´ë°ì€ í”„ë¡œì íŠ¸ì˜ ì„±ê²©ê³¼ íƒ€ìž…ì— ë”°ë¼ ë‹¬ë¼ì§ˆìˆ˜ ìžˆëŠ” ë¶€ë¶„ì´ê¸° ë•Œë¬¸ì´ë‹¤.
 
 <br>
 
-¶§¹®¿¡ ÀÌ·±°ÍÀ» ¾µ¼ö ÀÖ´Ù¶ó´Â È°¿ë°¡´É¼ºÀÌ Áß¿äÇÑ °ÍÀÌÁö, ÀÌ°ÍÀÇ »ç¿ëÀ» °­¿äÇÏ´Â °ÍÀº ¾Æ´Ï´Ù.
+ë•Œë¬¸ì— ì´ëŸ°ê²ƒì„ ì“¸ìˆ˜ ìžˆë‹¤ë¼ëŠ” í™œìš©ê°€ëŠ¥ì„±ì´ ì¤‘ìš”í•œ ê²ƒì´ì§€, ì´ê²ƒì˜ ì‚¬ìš©ì„ ê°•ìš”í•˜ëŠ” ê²ƒì€ ì•„ë‹ˆë‹¤.
 
 <br>
 
-### MBCS¿Í WBCS µ¿½ÃÁö¿ø ¸ÞÅ©·Î
+### MBCSì™€ WBCS ë™ì‹œì§€ì› ë©”í¬ë¡œ
 
-Á¶°ÇºÎ ÄÄÆÄÀÏÀ» ÇÏ¸éµÈ´Ù.
+ì¡°ê±´ë¶€ ì»´íŒŒì¼ì„ í•˜ë©´ëœë‹¤.
 
-###### ´Ü¼ø¼±¾ðÀÇ °æ¿ì
+###### ë‹¨ìˆœì„ ì–¸ì˜ ê²½ìš°
 	#ifdef UNICODE
 		typedef	WCHAR		TCHAR;
 		typedef	LPWSTR		LPTSTR;
@@ -49,16 +49,16 @@ windows´Â ÀÌ¹Ì ÀÌ·¸°Ô »ç¿ëÇÒ¼ö ÀÖ´Â ¿©·¯ ¸ÞÅ©·Î¿Í ÅÛÇÃ¸´À» Áö¿øÇÏ¸ç,
 		typedef LPCSTR		LPCTSTR;
 	#endif
 
->ÄÚµå¸¦ ÇØ¼®ÇØ º¸ÀÚ¸é
-¸ÞÅ©·Î UNICODE°¡ Á¤ÀÇ µÇ¾îÀÖ´Ù¸é
+>ì½”ë“œë¥¼ í•´ì„í•´ ë³´ìžë©´
+ë©”í¬ë¡œ UNICODEê°€ ì •ì˜ ë˜ì–´ìžˆë‹¤ë©´
 TCHAR -> WCHAR -> wchar_t
-¸ÞÅ©·Î UNICODE°¡ Á¤ÀÇµÇÁö ¾Ê¾Ò´Ù¸é
+ë©”í¬ë¡œ UNICODEê°€ ì •ì˜ë˜ì§€ ì•Šì•˜ë‹¤ë©´
 TCHAR -> CHAR -> char
-ÀÌ µÈ´Ù´Â ¶æÀÌ´Ù.
+ì´ ëœë‹¤ëŠ” ëœ»ì´ë‹¤.
 
 <br>
 
-###### L""ÀÇ ÇüÅÂ·Î ¹®ÀÚ¿­À» ¼±¾ðÇÒ¶§
+###### L""ì˜ í˜•íƒœë¡œ ë¬¸ìžì—´ì„ ì„ ì–¸í• ë•Œ
 
 	#ifdef _UNICODE
 		#define			__T(x)	L##x	// __T("ABC") -> L"ABC"
@@ -67,16 +67,16 @@ TCHAR -> CHAR -> char
 	#endif
 		
 	#define _T(x)		__T(x)
-	#define _TEXT(x)	__T(x)			// µÎ°³°¡ °°´Ù´Â ¼Ò¸®..
+	#define _TEXT(x)	__T(x)			// ë‘ê°œê°€ ê°™ë‹¤ëŠ” ì†Œë¦¬..
 
->ÄÚµå¸¦ ÇØ¼®ÇØ º¸ÀÚ¸é
-¸ÞÅ©·Î _UNICODE°¡ Á¤ÀÇµÇ ÀÖ´Ù¸é
+>ì½”ë“œë¥¼ í•´ì„í•´ ë³´ìžë©´
+ë©”í¬ë¡œ _UNICODEê°€ ì •ì˜ë˜ ìžˆë‹¤ë©´
 _T("ABC") -> __T("ABC") -> L"ABC"
-¸ÞÅ©·Î _UNICODE°¡ Á¤ÀÇµÇ ÀÖÁö ¾Ê´Ù¸é
+ë©”í¬ë¡œ _UNICODEê°€ ì •ì˜ë˜ ìžˆì§€ ì•Šë‹¤ë©´
 _T("ABC") -> __T("ABC") -> "ABC"
-ÀÌ µÈ´Ù´Â ¶æÀÌ´Ù.
+ì´ ëœë‹¤ëŠ” ëœ»ì´ë‹¤.
 
-### MBCS¿Í WBCS µ¿½ÃÁö¿ø ÇÔ¼ö
+### MBCSì™€ WBCS ë™ì‹œì§€ì› í•¨ìˆ˜
 
 	#ifdef _UNICODE
 		#define				_tmain		wmain
