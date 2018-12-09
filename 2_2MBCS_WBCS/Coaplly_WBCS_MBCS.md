@@ -1,4 +1,4 @@
-## MBCS와 WBCS 동시지원
+## 2-2 MBCS와 WBCS 동시지원
 
 <br>
 
