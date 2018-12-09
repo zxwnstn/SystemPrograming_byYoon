@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_2ProcessExe_SPconcept_Bus
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_1Character_set", "2_1Character_set\2_1Character_set.vcxproj", "{94B345EB-2EAC-4C7D-9CD1-AD0C39855D3B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2_2MBCS_WBCS", "2_2MBCS_WBCS\2_2MBCS_WBCS.vcxproj", "{9F9C577E-45BC-4E2E-894F-32C7A5ABE328}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{94B345EB-2EAC-4C7D-9CD1-AD0C39855D3B}.Release|x64.Build.0 = Release|x64
 		{94B345EB-2EAC-4C7D-9CD1-AD0C39855D3B}.Release|x86.ActiveCfg = Release|Win32
 		{94B345EB-2EAC-4C7D-9CD1-AD0C39855D3B}.Release|x86.Build.0 = Release|Win32
+		{9F9C577E-45BC-4E2E-894F-32C7A5ABE328}.Debug|x64.ActiveCfg = Debug|x64
+		{9F9C577E-45BC-4E2E-894F-32C7A5ABE328}.Debug|x64.Build.0 = Debug|x64
+		{9F9C577E-45BC-4E2E-894F-32C7A5ABE328}.Debug|x86.ActiveCfg = Debug|Win32
+		{9F9C577E-45BC-4E2E-894F-32C7A5ABE328}.Debug|x86.Build.0 = Debug|Win32
+		{9F9C577E-45BC-4E2E-894F-32C7A5ABE328}.Release|x64.ActiveCfg = Release|x64
+		{9F9C577E-45BC-4E2E-894F-32C7A5ABE328}.Release|x64.Build.0 = Release|x64
+		{9F9C577E-45BC-4E2E-894F-32C7A5ABE328}.Release|x86.ActiveCfg = Release|Win32
+		{9F9C577E-45BC-4E2E-894F-32C7A5ABE328}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
