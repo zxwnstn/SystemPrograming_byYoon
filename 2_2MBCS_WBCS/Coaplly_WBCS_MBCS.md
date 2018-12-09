@@ -15,15 +15,15 @@ windows는 이미 이렇게 사용할수 있는 여러 메크로와 템플릿을
 ### windows 정의 자료형
 	#include<windows.h)
 
-	typedef	char			CHAR;
-	typedef	wchar			WCHAR;
+	typedef	char		CHAR;
+	typedef	wchar		WCHAR;
 
-	#define CONST			const
+	#define CONST		const
 
-	typedef	CHAR *			LPSTR;
+	typedef	CHAR *		LPSTR;
 	typedef	CONST CHAR *	LPCSTR;
 	
-	typedef	WCHAR *			LPWSTR;
+	typedef	WCHAR *		LPWSTR;
 	typedef	CONST WCHAR *	LPCWSTR;
 회사, 팀별 더작게는 프로젝트별로 네이밍을 달리 하는 경우가 있기 때문에 이것이 최선이라 할 수는 없다.
 네이밍은 프로젝트의 성격과 타입에 따라 달라질수 있는 부분이기 때문이다.
@@ -35,6 +35,7 @@ windows는 이미 이렇게 사용할수 있는 여러 메크로와 템플릿을
 <br>
 
 ### MBCS와 WBCS 동시지원 메크로
+<br>
 
 조건부 컴파일을 하면된다.
 
@@ -49,32 +50,33 @@ windows는 이미 이렇게 사용할수 있는 여러 메크로와 템플릿을
 		typedef LPCSTR		LPCTSTR;
 	#endif
 
->코드를 해석해 보자면
-메크로 UNICODE가 정의 되어있다면
-TCHAR -> WCHAR -> wchar_t
-메크로 UNICODE가 정의되지 않았다면
-TCHAR -> CHAR -> char
-이 된다는 뜻이다.
+코드를 해석해 보자면<br>
+메크로 UNICODE가 정의 되어있다면<br>
+TCHAR -> WCHAR -> wchar_t<br>
+메크로 UNICODE가 정의되지 않았다면<br>
+TCHAR -> CHAR -> char<br>
+이 된다는 뜻이다.<br>
 
 <br>
 
 ###### L""의 형태로 문자열을 선언할때
 
 	#ifdef _UNICODE
-		#define			__T(x)	L##x	// __T("ABC") -> L"ABC"
+		#define		__T(x)	L##x	// __T("ABC") -> L"ABC"
 	#else
-		#define			__T(x)	x
+		#define		__T(x)	x
 	#endif
 		
 	#define _T(x)		__T(x)
-	#define _TEXT(x)	__T(x)			// 두개가 같다는 소리..
+	#define _TEXT(x)	__T(x)		// 두개가 같다는 소리..
 
->코드를 해석해 보자면
-메크로 _UNICODE가 정의되 있다면
-_T("ABC") -> __T("ABC") -> L"ABC"
-메크로 _UNICODE가 정의되 있지 않다면
-_T("ABC") -> __T("ABC") -> "ABC"
-이 된다는 뜻이다.
+코드를 해석해 보자면<br>
+메크로 _UNICODE가 정의되 있다면<br>
+_T("ABC") -> __T("ABC") -> L"ABC"<br>
+메크로 _UNICODE가 정의되 있지 않다면<br>
+_T("ABC") -> __T("ABC") -> "ABC"<br>
+이 된다는 뜻이다.<br>
+<br>
 
 ### MBCS와 WBCS 동시지원 함수
 
