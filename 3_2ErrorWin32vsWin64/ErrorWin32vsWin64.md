@@ -1,12 +1,12 @@
 ## 프로그램 구현 관점에서의 Win32 vs Win64
+64비트 스스템을 고려한 프로그래밍으로 자료형에 대해서 고려해야 한다.
 
 <br>
 
 ### 64비트 기반 프로그래밍
-+64비트 기반 프로그래밍
-64비트 스스템을 고려한 프로그래밍으로 자료형에 대해서 고려해야 한다.
 
-+LLP64 vs LP64
+LLP64 vs LP64
+<br>
 32비트 시스템과의 호환성을 중시한 모델
 
 운영체제 | 모델 | char | short | int | long | 포인터
@@ -39,9 +39,9 @@ LLP64기반일때 주의점 - 포인터는 4byte?? 아니다, 포인터는 8byte
 
 ### Windows 스타일 자료형 - polymorphic 자료형
 
--Polymorphic
+Polymorphic
 
-	#if defined(_WIN64)							//64비트 기반환경에서 프로그래밍 할시 기본적으로 들어가는 메크로
+	#if defined(_WIN64)					//64비트 기반환경에서 프로그래밍 할시 기본적으로 들어가는 메크로
 		typedef __int64 LONG_PTR;
 		typedef unsigned __int64 ULONG_PTR
 		typedef __int64 INT_PTR
@@ -58,7 +58,7 @@ LLP64기반일때 주의점 - 포인터는 4byte?? 아니다, 포인터는 8byte
 
 <br>
 
--코드로 알아보는 문제발생예제
+코드로 알아보는 문제발생예제
 
 	UINT CalDistance(UINT a, UINT b)
 	{
@@ -78,10 +78,17 @@ LLP64기반일때 주의점 - 포인터는 4byte?? 아니다, 포인터는 8byte
 		return 0;
 	}
 
+
+<br>
+
+
+
 1. 여기서 UNIT는 4바이트기 때문에 32비트 기반 에서는 아무런 문제가 없다.
 2. 하지만 64비트 기반에서는 문제가 발생될 활률이 농후하다. (주소값이 32비트 범위에서 동일하지 않은한)
-3. 어떻게 해결할까?
-4. 주소값 포인터 연산을 위한 polymorphic 자료형을 이용(메크로)한다!
+3. 주소값 포인터 연산을 위한 polymorphic 자료형을 이용(메크로)한다!
+4. 포인터 연산의 경우에 이러한 오류가 나타날수는 가능성이 높다.
+
+<br>
 
 	#if defined(_WIN64)
 		typedef unsined __int64 UNIT_PTR;
@@ -89,7 +96,6 @@ LLP64기반일때 주의점 - 포인터는 4byte?? 아니다, 포인터는 8byte
 		typedef unsined int UNIT_PTR;
 	#endlif
 
-5. 포인터 연산의 경우에 이러한 오류가 나타날수는 가능성이 높다.
 
 <br>
 
