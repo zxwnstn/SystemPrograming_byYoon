@@ -62,7 +62,7 @@ cpu자체의 표준은 존재하지 않고, cpu디자인의 대상은 상당히 
 	r6	lr
 	r7	pc
 
-ir - instruction register
-sp - stack pointer
-lr - link register
-pc - program counter
+ir - instruction register<br>
+sp - stack pointer<br>
+lr - link register<br>
+pc - program counter<br>
